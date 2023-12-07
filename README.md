@@ -1,6 +1,6 @@
 # MIST4610_Proj2
 # Team Members:
-1. John Hulsey | @J-Hulsey
+1. John Hulsey | @J-Hulsey | Repo: https://github.com/J-Hulsey/MIST_Project2
 2. Carson Whitt | @whittcarson | Repo: https://github.com/whittcarson/MIST4610GroupProject2
 3. Jack Mathison | @JackMathison | Repo: https://github.com/JackMathison/Project-2-MIST-4610
 4. Justin Sullivan | @Justin7ime | Repo: https://github.com/Justn7ime/MIST-Project-2
