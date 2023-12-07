@@ -25,5 +25,23 @@ After analyzing the average electric range of cars from this dataset by manufact
 
 After viewing the results of the first diagram, we filtered the data to include only the top 20 makes of cars with model year 2008 or later. This change aided in eliminating outliers and void space on the visual from the years 1996-2007. Our results show a similar trend to the initial graph for each vehicle type. BEVs have a large uptick in their average range starting in 2008 and peaking at 245 average miles in 2010. Then 2011 still showed a steep decline in efficiency, followed by a positive trend until peaking again in 2020 at approximately 278 miles average for Battery Electric Vehicles. The Plug-In Hybrid Electric Vehicles are not nearly as efficient in terms of average range, but, notably, their data mirrors the spike in 2010 with a following drop. Also, as in the first visual, the data shows that PHEVs never received the attention in development to exceed that previous peak as the BEV trend shows. A separate detail on the tail end of the diagram after 2020. PHEVS’ continue their slight up-and-down trend, but there is very little or zero data for BEVs. This is mainly due to a lack of owners buying newer vehicles around this time.
 
+# Question 2
+Which make of car has the highest rate of purchases for each type of electric vehicle in Washington?
+
+Significance:
+
+This question and the relevant data are signifigant as it allows one to understand who the market leaders are for both PHEV's and BEV's. By understanding who the market leaders are in the electric car market, consumers can make more informed decisions on what kind of electric vehicle to purchase. In the mind of many consumers, BEV's and PHEV's with more marketshare maybe better options than BEV's and PHEV's with less marketshare as there must be a reason that more of one kind of car is bought over others.
+
+PHEV:
+![image](https://github.com/purwplhaze/MIST4610_Proj2/assets/148249080/e9c351fa-af13-4e38-93a5-8f02e0251719)
+![image](https://github.com/purwplhaze/MIST4610_Proj2/assets/148249080/41514104-c38b-4a16-a2b9-ee520f9e0b54)
+
+BEV:
+![image](https://github.com/purwplhaze/MIST4610_Proj2/assets/148249080/09bc91c9-92bd-4de9-97fb-e0d522722b29)
+![image](https://github.com/purwplhaze/MIST4610_Proj2/assets/148249080/06e80934-4b5d-456f-9122-e88908a0b384)
+
 # Manipulations to the dataset for Analysis
 We did not manipulate any raw data, but we did filter out irrelevant data and apply measurable functions to certain columns. In Q1, we filtered data to only include the top 20 makes of EVs with model year 2008 or later. We also applied the average function to "Electric Range" in order to set a standard for comparing the electric range of electric vehicle types year-after-year. For Q2, we applied the count function to "Electric Vehicle Type" in order to compare the amount of EV types manufactured for each make. All filters/marks applied to the data are solely intended to show the viewer quantifiable information related to the questions. In regards to integrity, our data has no inaccuracies, irrelevancies, or 3rd party imports.
+
+# Tableau Packaged Workbook
+The tableau packaged workbook featuring these visualizations and the dataset is attached to this repository.
