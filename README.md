@@ -8,16 +8,20 @@
 6. Hayes Herzog | @purwplhaze
 
 # Description of Dataset
+This dataset represents Battery Electric Vehicles (BEV) and Plug-in Hybrid Electric Vehicles (PHEV) that are currently registered through the Washington Department of Licensing. We obtained the dataset from the website provided: (https://catalog.data.gov/dataset/electric-vehicle-population-data). The varying datatypes include the make and model of the car, VIN number,and electric vehicle type; these data types are string. Numeric measurements such as the electric vehicle range and base MSRP are of datatype number(whole), with the date of the model of the car being of datatype date & time. This dataset helps us depict the reality of electric vehicles within the state of Washington within the period of 1997 to present day and draw conclusions for consumers based upon this dataset.
 
 # Question 1
-Is there a correlation between newer Plug-In Hybrid Electric Vehicle (PHEV) models and Battery Electric Vehicle (BEV) models and longer electric car ranges? If so, how significant is that correlation?
+Is there a correlation between newer PHEV models and BEV models and longer electric car ranges? If so, how significant is that correlation?
 
 Significance:
 
 This question is important because it helps someone better understand their options based on which cars and their ranges best suit their needs. The answer and its visualization are especially useful when considering questions like “How far am I driving in a given day?” and ”How often am I stopping long enough to charge the battery if needed?” This will help consumers determine what model years have lower average driving ranges and learn to avoid them in search of newer models that are shown to have increasingly improved distance capabilities. This question also enables one to see how BEV efficiency development is growing at a much faster rate than that of the PHEVs.
 
-<img width="624" alt="AvgRangeBy Year" src="https://github.com/whittcarson/MIST4610GroupProject2/assets/131502055/e523276f-b4bf-4d67-8a8a-17866cbaeadd">
+![image](https://github.com/purwplhaze/MIST4610_Proj2/assets/148249080/b6eb4279-274d-4b25-be6a-23af5350f9f1)
 
+After analyzing the average electric range of cars from this dataset by manufacturing year and type, we can infer that there is a general significant increase in the electric range of BEV models created from 2000 to 2010 of over 240 miles on average. Post 2010 there was actually a sharp decline in average electric range temporarily, with a steady recovery to the rate we saw in 2010 models. We can also see that by 2020, the average electric range of new BEV’s surpassed that of any year in Washington. Also included and labeled in orange are PHEV. Although we want to focus on the fully electric cars labeled in blue, it is interesting to note that the average electric range of hybrids also declined for models after 2010 yet did not experience the same recovery in 2020 model in the state.
+
+<img width="624" alt="AvgRangeBy Year" src="https://github.com/whittcarson/MIST4610GroupProject2/assets/131502055/e523276f-b4bf-4d67-8a8a-17866cbaeadd">
 
 After viewing the results of the first diagram, we filtered the data to include only the top 20 makes of cars with model year 2008 or later. This change aided in eliminating outliers and void space on the visual from the years 1996-2007. Our results show a similar trend to the initial graph for each vehicle type. BEVs have a large uptick in their average range starting in 2008 and peaking at 245 average miles in 2010. Then 2011 still showed a steep decline in efficiency, followed by a positive trend until peaking again in 2020 at approximately 278 miles average for Battery Electric Vehicles. The Plug-In Hybrid Electric Vehicles are not nearly as efficient in terms of average range, but, notably, their data mirrors the spike in 2010 with a following drop. Also, as in the first visual, the data shows that PHEVs never received the attention in development to exceed that previous peak as the BEV trend shows. A separate detail on the tail end of the diagram after 2020. PHEVS’ continue their slight up-and-down trend, but there is very little or zero data for BEVs. This is mainly due to a lack of owners buying newer vehicles around this time.
 
