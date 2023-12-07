@@ -2,11 +2,11 @@
 # Team Members:
 1. John Hulsey | @J-Hulsey
 2. Carson Whitt | @whittcarson
-  Repo: https://github.com/whittcarson/MIST4610GroupProject2
+   Repo: https://github.com/whittcarson/MIST4610GroupProject2
 3. Jack Mathison | @JackMathison
-  Repo: https://github.com/JackMathison/Project-2-MIST-4610
+   Repo: https://github.com/JackMathison/Project-2-MIST-4610
 4. Justin Sullivan | @Justin7ime
-  Repo: https://github.com/Justn7ime/MIST-Project-2
+   Repo: https://github.com/Justn7ime/MIST-Project-2
 5. Hayes Herzog | @purwplhaze
 
 # Description of Dataset
